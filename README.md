@@ -17,3 +17,6 @@
 ```
 
 具体参数接口请查看[tushare API](https://tushare.pro/document/2)文档
+
+## 测试前先设置环境变量
+TUSHARE_TOKEN
