@@ -1,4 +1,4 @@
-module tushare-go
+module github.com/wumingyu12/tushare-go
 
 go 1.23
 
