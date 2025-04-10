@@ -33,9 +33,9 @@ func (api *TuShare) FutDaily(params map[string]string, fields []string) (*APIRes
 	if !hasTsCode {
 		return nil, fmt.Errorf("trade_date is a required argument")
 	}
-	_, hasTsCode = params["symbol"]
+	_, hasTsCode = params["ts_code"]
 	if !hasTsCode {
-		return nil, fmt.Errorf("symbol is a required argument")
+		return nil, fmt.Errorf("ts_code is a required argument")
 	}
 	//params = map[string]string{
 	//	"trade_date": "20250325",
